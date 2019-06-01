@@ -2,7 +2,7 @@
 
 class Dog 
 
-  def name(dog_name)
+  def name=(dog_name)
     @this_dogs_name = dog_name
   end 
   
@@ -22,7 +22,8 @@ end
 
 
 
-fido = Dog.new("Fido")
+fido = Dog.new
+fido.name = "Fido"
 
 fido.name
 fido.bark
