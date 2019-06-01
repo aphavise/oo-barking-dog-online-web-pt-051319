@@ -22,8 +22,7 @@ end
 
 
 
-fido = Dog.new
-fido.name = "Fido"
+fido = Dog.new("Fido")
 
 fido.name
 fido.bark
